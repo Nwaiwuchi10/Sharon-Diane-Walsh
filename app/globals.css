@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #c9a84c;
+  --accent-dark: #a8853a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  cursor: none;
+}
+
+a, button, input[type='submit'] {
+  cursor: none;
+}
+
+@media (max-width: 991px) {
+  body {
+    cursor: auto;
+  }
+  a, button, input[type='submit'] {
+    cursor: auto;
+  }
+}
+
